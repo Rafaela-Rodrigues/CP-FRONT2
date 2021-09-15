@@ -15,11 +15,17 @@ function createCard() { //Funçao para criar cada card
     let cardSection = document.querySelector(".grid-container"); //"Junta" o Html com Js para add ao container de cards
     div.innerHTML = `
     <div class="cardurl">
-      <img src="${urlImg}" alt="">
+      <div class="img">
+        <img src="${urlImg}" alt="">
+      </div>
     </div>
     <div class="texto">
-      <h1>${title}</h1>
-      <p>${description}</p>
+      <div class="nome">
+        <h1>${title}</h1>
+      </div>
+      <div class="descricao">
+        <p>${description}</p>
+      </div>
     </div>
   `
     cardSection.append(div)
