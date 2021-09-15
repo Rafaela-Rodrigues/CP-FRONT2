@@ -1,0 +1,18 @@
+#pop{ /*mostra o form*/
+  background-color: rgb(128, 0, 0); /*cor de fundo*/
+  z-index: 100; /*Indica*/
+  display:none; /*retira o elemento da página, mas ainda permite manipulação*/
+  position:absolute; /*Posicionado com referencia ao "pai" mais próximo*/
+  top:50%; /*margem do topo*/
+  left:50%; 
+  margin-left:-150px; 
+  margin-top:-160px;
+  padding:10px; 
+  width: 300px; /*largura*/
+  height: 500px; /*altura*/
+  /* border:1px solid #d0d0d0 borda */
+}
+img{
+  width: 50px;
+  height: 50px;
+}
